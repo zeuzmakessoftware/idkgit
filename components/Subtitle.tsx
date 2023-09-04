@@ -6,7 +6,7 @@ const Subtitle: React.FC<SubtitleProps> = ( {title} ) => {
     
     return ( 
         <div className="flex justify-center align-center">
-            <h1 className="text-3xl text-[#999999] font-normal py-4 w-[800px]">{title}</h1>
+            <h3 className="text-3xl text-[#999999] font-normal w-[400px] sm:w-[800px] my-4">{title}</h3>
         </div>
      );
 }
